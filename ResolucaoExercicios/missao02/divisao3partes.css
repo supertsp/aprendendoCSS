@@ -1,0 +1,66 @@
+/*reset do CSS do Browser*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #000;
+}
+
+#superior, #esquerda, #direita{
+    margin-top: 15px;
+    margin-left: 15px;
+
+    padding: 8px;
+}
+
+#superior{
+    width: 96.5%;
+
+    background-color: #BDD7EE;
+}
+
+#superior > a{
+    display: inline-block;
+    
+    margin-right: 85px;
+
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#superior > a:hover{
+    color: #0070C0;
+}
+
+#esquerda, #direita{
+    width: 47.1%;
+    height: 31.5em;
+
+    margin-bottom: 15px;
+
+    float: left;
+}
+
+#esquerda{
+    background-color: #C5E0B4;
+}
+
+#direita{
+    background-color: #F8CBAD;
+}
+
+h1{
+    font-size: 1.4em;
+
+    margin-bottom: 8px;
+}
+
+img{
+    width: 10em;
+    float: left;
+        
+    margin-right: 15px;
+}
